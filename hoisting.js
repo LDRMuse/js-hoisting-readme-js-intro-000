@@ -7,13 +7,13 @@ function callMe() {
   return lyric;
 
 }
-
+var thisIsCrazy;
 thisIsCrazy();
 function crazy() {
   // fix the code in here:
-const spies = require('chai-spies')
 
-  var thisIsCrazy = function (){
+
+  thisIsCrazy = function (){
     console.log("hey!!!")
   }
 }
