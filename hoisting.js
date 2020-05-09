@@ -11,9 +11,9 @@ function callMe() {
 thisIsCrazy();
 function crazy() {
   // fix the code in here:
+const spies = require('chai-spies')
 
-
-  function thisIsCrazy(){
+  var thisIsCrazy = function (){
     console.log("hey!!!")
   }
 }
